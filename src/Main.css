@@ -1,0 +1,122 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-section .hero-content {
+    flex: 1; /* Take up remaining space */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .hero-section img {
+    max-width: 50%; /* Adjust image size as needed */
+    height: auto;
+  }
+
+  /* For headlines */
+h1, h2, h3, h4, h5, h6, button {
+    font-family: 'Markazi Text', sans-serif;
+    font-weight: 500; /* Medium weight */
+  }
+
+  .reserve-table-btn, .order-online-btn {
+    background-color: #F4CE14; /* Green background color */
+    border: none;
+    color: white; /* White text color */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 16px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+  
+  .reserve-table-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+    cursor: pointer;
+  }
+  
+  /* Subtitles */
+h1 {
+    font-family: 'Markazi Text', sans-serif;
+    font-size: 40px; /* 40pt */
+    font-weight: medium; /* Medium */
+  }
+  
+  /* Descriptive items */
+  h3 {
+    font-family: 'Markazi Text', sans-serif;
+    font-size: 18px; /* 18pt */
+    font-weight: medium; /* Medium */
+  }
+  
+  /* Card title */
+  .dish-card h4 {
+    font-family: 'Markazi Text', sans-serif;
+    font-size: 18px; /* 18pt */
+    font-weight: bold; /* Bold */
+  }
+  
+  /* Paragraph text */
+  p, span, a {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px; /* 16pt */
+    line-height: 1.5; /* 1.5 line height */
+    max-width: 65ch; /* Max 65 characters per line */
+  }
+  
+  /* Highlight text */
+  .highlight-text {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px; /* 16pt */
+    font-weight: medium; /* Medium */
+  }
+  
+  .highlights-container {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+  }
+  
+  .dish-card {
+    width: calc(33.33% - 20px); /* Set the width of each card */
+    margin: 0 10px; /* Add margin between cards */
+  }
+  
+  .dish-card img {
+    width: 250px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+
+  .testimonials-container {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+  }
+  
+  .testimonial-card {
+    width: calc(33.33% - 20px); /* Set the width of each card */
+    margin: 0 10px; /* Add margin between cards */
+  }
+
+.about-content {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-image img {
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
