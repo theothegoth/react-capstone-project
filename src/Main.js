@@ -32,7 +32,7 @@ function Main() {
             <h1>Little Lemon</h1>
             <h3>Chicago</h3>
             <p>Located at XYZ Street, City, The Little Lemon offers a variety of fresh and delicious food options, including salads, sandwiches, and smoothies.</p>
-            <button className="reserve-table-btn" onClick={() => window.location.href = '/reserve-table'}>
+            <button className="reserve-table-btn" onClick={() => window.location.href = '/booking'}>
               Reserve a Table
             </button>
           </div>
