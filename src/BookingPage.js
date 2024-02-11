@@ -55,9 +55,7 @@ function BookingPage() {
 
     return (
         <div>
-            <h1>Booking Page</h1>
-            <p>Fill out the form below to book your appointment.</p>
-            {/* Render the BookingForm component */}
+            <h1>Book a Table</h1>
             <BookingForm availableTimes={availableTimes} dispatch={dispatch} submitForm={submitForm}/>
         </div>
     );

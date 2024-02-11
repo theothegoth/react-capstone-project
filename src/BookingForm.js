@@ -1,5 +1,6 @@
 import React, { useState,useEffect } from 'react';
 import { fetchAPI } from './mockAPI'; // Import the fetchAPI function
+import './BookingForm.css';
 
 function BookingForm({ availableTimes, dispatch, submitForm }) {
     const [date, setDate] = useState('');
@@ -37,7 +38,7 @@ function BookingForm({ availableTimes, dispatch, submitForm }) {
     };
 
     return (
-        <form style={{ display: 'grid', maxWidth: '200px', gap: '20px' }}>
+        <form className="booking-form">
             <label htmlFor="res-date">Choose date</label>
             <input type="date" id="res-date" value={date} onChange={handleDateChange} required />
             <select id="res-time" value={time} onChange={(e) => setTime(e.target.value)} required>
